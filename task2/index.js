@@ -1,4 +1,4 @@
-const uppercaseFirstLetter = (sentence) => {
+const uppercaseLastLetter = (sentence) => {
   const words = sentence.split(' ');
   const capitalizedWords = words.map((word) => {
     const lastLetter = word[word.length - 1].toUpperCase();
@@ -10,4 +10,4 @@ const uppercaseFirstLetter = (sentence) => {
   return capitalizedSentence;
 }
 
-uppercaseFirstLetter("Astazi este joi");
+uppercaseLastLetter("Astazi este joi");
