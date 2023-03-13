@@ -1,0 +1,30 @@
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+}
+#btn-plus,
+#btn-minus {
+    background: linear-gradient(white, white) padding-box,
+    linear-gradient(to right, darkblue, darkorchid) border-box;
+    border-radius: 50em;
+    border: 3px solid transparent;
+}
+#btn-plus,
+#btn-minus {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;
+    color: darkblue;
+    padding: 0.2rem 0.6rem;
+    cursor: pointer;
+}
+#input-number{
+    width: 50px;
+}
